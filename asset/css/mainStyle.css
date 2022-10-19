@@ -35,7 +35,7 @@ header .logo img{
 }
 
 header .nav__bar{
-    width: 40%;
+    width: 30%;
     height: 100%;
 }
 
@@ -46,4 +46,14 @@ header .nav__bar .nav__list{
     justify-content: space-between;
     align-items: center;
 
+}
+
+header .nav__bar .nav__list .nav__item{
+    display: inline-block;
+    list-style: none;
+}
+
+header .nav__bar .nav__list .nav__item .nav__link{
+    font-size: 18px;
+    color: #161515;
 }
