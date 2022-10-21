@@ -114,6 +114,8 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .categories .categories__container .categorie{
@@ -129,7 +131,7 @@ section{
 }
 
 .categories .categories__container .categorie img:hover{
-    transform: translate(20px);
+    transform: scale(calc(100% + 10%));
     cursor: pointer;
 }
 
