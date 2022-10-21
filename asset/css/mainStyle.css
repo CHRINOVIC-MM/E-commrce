@@ -85,6 +85,7 @@ section{
 
 .hero h1{
     font-size: 40px;
+    font-family: "Roboto", sans-serif;
 }
 
 .hero h3{
@@ -93,4 +94,45 @@ section{
 
 .hero p{
     font-size: 18px;
+}
+
+.categories{
+    position: relative;
+    top: 6rem;
+    width: 100%;
+    height: 30vh;
+}
+
+.categories h1{
+    text-align: right;
+    margin-right: 50px;
+}
+
+.categories .categories__container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.categories .categories__container .categorie{
+    width: calc(100% / 4);
+    height: 100%;
+}
+
+.categories .categories__container .categorie img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    transition: all .5s ease-in;
+}
+
+.categories .categories__container .categorie img:hover{
+    transform: translate(20px);
+    cursor: pointer;
+}
+
+.categories .categories__container .categorie h1{
+    text-align: start;
 }
